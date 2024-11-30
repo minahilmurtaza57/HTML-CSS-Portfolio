@@ -1,0 +1,255 @@
+body {
+    font-family: Montserrat;
+}
+
+.heading-span {
+    color: #FC604D;
+}
+
+/*--------------------------------------------------------------------------------*/
+.icons {
+    background-color: #EBEFF3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.fa-linkedin-in,
+.fa-github {
+    font-size: 25px;
+    color: grey;
+    margin: 0 15px;
+}
+
+.icons-sub {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 16px;
+    margin-right: 100px;
+}
+
+#contact {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/*--------------------------------------------------------------------------------*/
+#introduction {
+    background-color: #EBEFF3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px 150px 50px;
+}
+
+#icons-para {
+    font-size: 24px;
+    color: grey;
+}
+
+#main-heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#welcome-text{
+    font-size: 18px;
+    color: #4E4E4E;
+    margin-bottom: 0px;
+}
+
+#para-text {
+    font-size: 18px;
+    color: #4E4E4E;
+}
+
+#intro {
+    max-width: 500px;
+}
+
+#img1{
+    width: 500px;
+}
+
+/*--------------------------------------------------------------------------------*/
+#about-expertise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 100px 0px 100px;
+}
+
+#about {
+    width: 45%;
+}
+
+.about-Para {
+    display: inline-block;
+}
+
+#expertise {
+    width: 45%;
+}
+
+.expertise-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bars-div {
+    background-color: #EBEFF3;
+    width: 100%;
+    height: 10px;
+}
+
+.progress {
+    background-color: #FC604D;
+    padding: 1px;
+    height: 7px;
+}
+
+.ninetyFive {
+    width: 95%;
+}
+
+.eightyFive {
+    width: 85%;
+}
+
+.seventy {
+    width: 70%;
+}
+
+.seventyFive {
+    width: 75%;
+}
+
+.fifty {
+    width: 50%;
+}
+
+/*--------------------------------------------------------------------------------*/
+#experience-education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 20px;
+}
+
+#experience,
+#education {
+    width: 550px;
+}
+
+.company,
+.institution {
+    color: #FC604D;
+    padding: 10px;
+}
+
+.job,
+.degree {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.exp-details-div,
+.edu-details-div {
+    background-color: #EBEFF3;
+    border-radius: 4px;
+}
+
+/*--------------------------------------------------------------------------------*/
+#portfolio {
+    background-color: #EBEFF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+    gap: 30px;
+}
+
+.portfolio-images img {
+    max-width: 100%;
+}
+
+#img2 {
+    background-color: #EFEEFF;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+#img3 {
+    background-color: #C6C7C2;
+    padding: 0px 30px;
+}
+
+/*--------------------------------------------------------------------------------*/
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    gap: 20px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-heading {
+    width: 35%;
+    font-size: 20px;
+    grid-column: 1/span 2;
+}
+
+#message {
+    grid-column: 1/span 2;
+    width: 200%;
+    height: 100px;
+}
+
+input {
+    padding: 10px;
+}
+
+label {
+    font-weight: 500;
+}
+
+#lorem {
+    color: #4E4E4E;
+    grid-column: 1/span 2;
+}
+
+#button {
+    background-color: #FC604D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 20px;
+    grid-column: 1/span 2;
+    place-self: end;
+}
+
+/*--------------------------------------------------------------------------------*/
+#copyright {
+    color: #4E4E4E;
+}
